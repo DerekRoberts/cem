@@ -5,4 +5,4 @@ COPY ./ .
 
 RUN npm run all:ci
 RUN chmod +x /opt/app-root/src/bin/run-migrations.sh
-CMD ["/bin/sh"]
+CMD ["/bin/sh", "/opt/app-root/src/bin/run-migrations.sh"]
