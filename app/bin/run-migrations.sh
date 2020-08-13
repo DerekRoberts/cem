@@ -1,9 +1,14 @@
 #!/bin/sh
-
+#
 set -euo nounset
 
-sleep 10
-while (! exec npm run migrate); do
-  >&2 echo "Postgres is unavailable - sleeping"
-  sleep 10
+# Migrate with retries
+#
+while true; do
+  echo "Waiting 5 seconds for Postgres to start"
+  sleep 5
+  npm run migrate | grep -iE 'Already up to date|Batch [0-9]* run: [0-9]* migrations'
+  [[ $? -eq 0 ]] && break
 done
+
+echo "Migrations complete!  Exiting."
