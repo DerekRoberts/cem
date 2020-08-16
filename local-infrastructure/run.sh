@@ -1,8 +1,7 @@
 #!/bin/bash
 #
-# https://bcgov.github.io/common-forms-toolkit/local-infrastructure/
-#
 # Prerequisites: docker, docker compose and python
+# https://bcgov.github.io/common-forms-toolkit/local-infrastructure/
 #
 set -euo pipefail
 
