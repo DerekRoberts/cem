@@ -1,5 +1,5 @@
 {
-  "name": "cem-backend",
+  "name": "backend",
   "version": "1.0.0",
   "description": "Communicates with Common Services' APIs (CDOGS, CHES, Auth)",
   "main": "/src/server.js",
