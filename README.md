@@ -1,3 +1,11 @@
+### Project Lifecycle: RETIRED
+
+This code has been merged into the Government of British Columbia's Containerization and Cloud Economic Model repository.
+
+[bcgov/containerization-and-cloud-economic-model](https://github.com/bcgov/containerization-and-cloud-economic-model)
+
+---
+
 <!-- PROJECT SHIELDS -->
 <!--
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
@@ -8,6 +16,7 @@
 [![Stargazers][stars-shield]](/../../stargazers)
 [![Issues][issues-shield]](/../../issues)
 [![MIT License][license-shield]](/LICENSE.txt)
+[![Lifecycle][lifecycle-shield]](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -215,3 +224,4 @@ Distributed under the MIT License. See [LICENSE.txt](LICENSE.txt) for more infor
 [stars-shield]: https://img.shields.io/github/stars/DerekRoberts/cem.svg?style=for-the-badge
 [issues-shield]: https://img.shields.io/github/issues/DerekRoberts/cem.svg?style=for-the-badge
 [license-shield]: https://img.shields.io/github/license/DerekRoberts/cem.svg?style=for-the-badge
+[lifecycle-shield]: https://img.shields.io/badge/Lifecycle-Retired-d45500?style=for-the-badge
