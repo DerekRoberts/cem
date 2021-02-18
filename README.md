@@ -1,3 +1,11 @@
+### Project Lifecycle: RETIRED
+
+This code has been merged into the Government of British Columbia's Containerization and Cloud Economic Model repository.
+
+[bcgov/containerization-and-cloud-economic-model](https://github.com/bcgov/containerization-and-cloud-economic-model)
+
+---
+
 <!-- PROJECT SHIELDS -->
 <!--
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
